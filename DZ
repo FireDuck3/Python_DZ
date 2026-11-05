@@ -1,0 +1,13 @@
+height = 10
+
+
+for i in range(height):
+    spaces = " " * (height - i - 1)
+    stars = "*" * (2 * i + 1)
+    print(spaces + stars)
+
+trunk_spaces = " " * (height - 1)
+print(trunk_spaces + "||")
+
+base_spaces = " " * (height - 3)
+print(base_spaces +"[======]")
